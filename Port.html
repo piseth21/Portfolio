@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/Screenshot 2025-02-20 111504.png" />
+    <title>Piseth's Portfolio</title>
+    <link rel="stylesheet" href="Port.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="Images/Logo.png" alt="logo" class="logo-img" />
+        <div class="logo">Port<span>folio</span></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <!-- <li><a href="#Contact">Contact</a></li> -->
+      </ul>
+      <button
+        class="contact-btn"
+        onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })"
+      >
+        Contact Me
+      </button>
+    </nav>
+
+    <section id="Home" class="home-section">
+      <div class="container">
+        <div class="content">
+          <div class="text">
+            <h1>Hi, I'm Piseth</h1>
+            <p>
+              <strong>Full-stack Developer</strong>, constantly fueling my
+              passion for learning.
+            </p>
+            <p>I'm always on the lookout for new things to try.</p>
+            <div class="social-icons">
+              <a href="https://github.com/piseth21" target="_blank"
+                ><i class="fab fa-github-alt"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/chheng.piseth.520/"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/chh.seth_" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="image-container">
+            <img src="Images/Profile Picture.jpg" alt="Profile Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="about-section">
+      <div class="about-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img
+            src="Images/Profile Picture1.jpg"
+            alt="Profile Picture"
+            class="about-img"
+          />
+          <div class="about-text">
+            <p>
+              I've been working as a full-stack developer for 3 years. During
+              this time, I've worked on various fields such as frontend
+              development with NextJS and Angular (legacy code), backend
+              development with Spring, Blockchain and Smart Contract with
+              Solidity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects" class="projects-section">
+      <div class="projects-container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="Images/Portfolio.png" alt="Personal Portfolio" />
+            <div class="project-info">
+              <h3>Personal Portfolio</h3>
+              <p>
+                A personal portfolio showcasing skills, experience, and
+                projects.
+              </p>
+              <div class="badges">
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skills" class="skills-section">
+      <div class="skills-container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              alt="C++ Logo"
+              width="50"
+              height="50"
+            />
+            <h3>C++</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java Logo"
+              width="50"
+              height="50"
+            />
+            <h3>Java</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML Logo"
+              width="50"
+              height="50"
+            />
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS Logo"
+              width="50"
+              height="50"
+            />
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript Logo"
+              width="50"
+              height="50"
+            />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Bootstrap Logo"
+              width="50"
+              height="50"
+            />
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+              alt="Tailwind CSS Logo"
+              width="50"
+              height="50"
+            />
+            <h3>Tailwind CSS</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Experience" class="experience-section">
+      <div class="experience-container">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <img src="Images/Weather station.jpg" alt="Weather Station" />
+            <div class="experience-info">
+              <h3>Weather Station</h3>
+              <h4>Make Project - May 2022</h4>
+              <p>
+                A weather station is a facility with instruments and sensors
+                used to measure atmospheric conditions like temperature,
+                humidity, wind speed, and pressure to monitor and forecast the
+                weather.
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <img src="Images/Scan card.webp" alt="Scan Card" />
+            <div class="experience-info">
+              <h3>Scan Card</h3>
+              <h4>Make Project - Feb 2023</h4>
+              <p>
+                A **scan card** is a card with a magnetic strip, barcode, or
+                RFID chip that can be scanned for identification, access
+                control, or transactions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact-section">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via email or through the form below.</p>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:chhengpiseth874@gmail.com"
+                >chhengpiseth874@gmail.com</a
+              >
+            </p>
+            <p><strong>Phone:</strong> +099920144</p>
+            <p><strong>Location:</strong> Phnom Penh, Cambodia</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document
+        .querySelector(".contact-btn")
+        .addEventListener("click", function () {
+          let contactSection = document.getElementById("Contact");
+          if (contactSection) {
+            window.scrollTo({
+              top: contactSection.offsetTop,
+              behavior: "smooth",
+            });
+          }
+        });
+    </script>
+
+    <footer class="footer">
+      <p>© 2024 Piseth Chheng. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
